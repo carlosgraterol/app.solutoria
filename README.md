@@ -1,6 +1,6 @@
 ## Instalación
 
-El ejercicio esta creado en Laravel v8.83 y la Base de Datos seleccionada es MySql.
+El ejercicio está creado en Laravel v8.83 y la Base de Datos seleccionada es MySql.
 
 - composer install
 - npm install
@@ -10,3 +10,6 @@ El ejercicio esta creado en Laravel v8.83 y la Base de Datos seleccionada es MyS
 - php artisan migrate
 - php artisan optimize:clear
 - npm run watch ó php artisan serve
+- Una vez desplegada la aplicación registrese y haga login. En el home de la App está la realización del ejercicio.
+
+¡Muchas gracias estimados!
