@@ -11,9 +11,6 @@ window.Vue = require('vue').default;
 import Vue from 'vue';
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('pago-component', require('./components/PagoComponent.vue').default);
-Vue.component('calendario-component', require('./components/CalendarioComponent.vue').default);
-Vue.component('tareas', require('./components/TareasComponent.vue').default);
 
 
 /**

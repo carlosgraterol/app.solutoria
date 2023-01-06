@@ -23,5 +23,3 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::post('/indicador/store', [App\Http\Controllers\HomeController::class, 'store'])->name('store');
 Route::post('/indicador/borrar', [App\Http\Controllers\HomeController::class, 'borrar'])->name('borrar');
 Route::post('/indicador/filtro', [App\Http\Controllers\HomeController::class, 'filtro'])->name('filtro');
-Route::post('/tareas/guardar', [App\Http\Controllers\TareaController::class, 'guardar']);
-Route::resource('/tareas', App\Http\Controllers\TareaController::class);
